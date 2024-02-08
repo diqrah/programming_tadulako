@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <ol type="I">
+            <li>tujuan</li>
+            <ol type="A">
+                <li>mampu memahanmi list html</li>
+                <li>mampu membuat list didalam html</li>
+            </ol>
+            <li>alat dan bahan</li>
+            <ol type="A">
+                <li>laptop</li>
+                <li>modul</li>
+                <li>vs code</li>
+            </ol>
+            <li> Teori dasae</li>
+            <li>hasil percobaan</li>
+        </ol>
+    </div>
+    <table border="1" cellpadding="10">
+        <thead>
+            <tr>
+                <th rowspan="3">day</th>
+                <th colspan="3">seminar</th>
+            </tr>
+            <tr>
+                <th colspan="2">schedule</th>
+                <th rowspan="2">topic</th>
+            </tr>
+            <tr>
+                <th>begin</th>
+                <th>end</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>senin</td>
+                <td>18:30</td>
+                <td>21:30</td>
+                <td>belajar table html</td>
+            </tr>
+            <tr>
+                <td>selasa</td>
+                <td>19:30</td>
+                <td>22:30</td>
+                <td>belajar semantic html</td>
+            </tr>
+            
+        </tbody>
+    </table>
+    <hr>
+        <form>
+            <label for="fname">nama depan</label><br />
+            <input type="text" id="fname" name="fname"><br />
+
+            <label for="lname">nama belakang</label><br />
+            <input type="text" id="lname" name="lname" />
+        </form>
+        <form>
+            <label>nama :</label>
+            <input type="text" id="nama" /><br>
+            <input type="radio" name="jk" id="laki"><label for="laki">laki-laki</label><br>
+            <input type="radio" name="jk" id="perempuan"><label for="perempuan">perempuan</label><br>
+        </form>
+        <hr>
+        <form>
+            <input type="checkbox" name="genre" id="rock"><label for="rock">rock</label><br>
+            <input type="checkbox" name="genre" id="pop"><label for="pop">pop</label><br>
+            <input type="checkbox" name="genre" id="hip hop"><label for="hip hop">hip hop</label>
+        </form>
+        <hr>
+        <form>
+            <label for="komentar">komentar</label>
+            <textarea name="komentar" id="komentar" cols="30" rows="10"></textarea><br>
+            <label for="merek">merek mobil</label><br>
+            <select name="merek" id="merek">
+                <option selected disabled>pilih merek</option>
+                <option value="porche">porche</option>
+                <option value="audi">audi</option>
+                <option value="toyota">toyota</option>
+                <option value="ferari">ferari</option>
+            </select>
+        </form>
+</body>
+</html>
